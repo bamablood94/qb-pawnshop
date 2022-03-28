@@ -9,36 +9,28 @@ Config.SendMeltingEmail = true
 
 Config.PawnItems = {
     [1] = {
-        item = "goldchain",
-        price = math.random(50,100)
+        item = "goldbar",
+        price = math.random(1500,2000)
     },
     [2] = {
-        item = "diamond_ring",
-        price = math.random(50,100)
-    },
-    [3] = {
-        item = "rolex",
-        price = math.random(50,100)
-    },
-    [4] = {
-        item = "10kgoldchain",
-        price = math.random(50,100)
-    },
-    [5] = {
         item = "tablet",
         price = math.random(50,100)
     },
-    [6] = {
+    [3] = {
         item = "iphone",
         price = math.random(50,100)
     },
-    [7] = {
+    [4] = {
         item = "samsungphone",
         price = math.random(50,100)
     },
-    [8] = {
+    [5] = {
         item = "laptop",
         price = math.random(50,100)
+    },
+    [6] = {
+        item = 'diamond',
+        price = math.random(750, 1200)
     }
 }
 
@@ -48,7 +40,7 @@ Config.MeltingItems = { -- meltTime is amount of time in minutes per item
         rewards = {
             [1] = {
                 item = "goldbar",
-                amount = 2
+                amount = 1
             }
         },
         meltTime = 0.15
